@@ -1,0 +1,20 @@
+{
+  "name": "chromedriver_aria",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+      "start": "nodemon index.js"
+  },
+  "author": "wander555",
+  "license": "ISC",
+    "dependencies": {
+    "aria2c": "^0.0.5",
+    "nodemon": "^2.0.20",
+    "puppeteer": "^14.1.1",
+    "request": "^2.88.2",
+    "cheerio": "^1.0.0-rc.10",
+    "express": "^4.18.1",
+    "express-async-errors": "^3.1.1"
+  }
+}
