@@ -9,9 +9,9 @@
   "author": "wander555",
   "license": "ISC",
     "dependencies": {
-    "aria2c": "^0.0.5",
+    "aria2c": "^0.0.6",
     "nodemon": "^2.0.20",
-    "puppeteer": "^14.1.1",
+    "puppeteer": "^19.10.1",
     "request": "^2.88.2",
     "cheerio": "^1.0.0-rc.10",
     "express": "^4.18.1",

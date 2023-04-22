@@ -2,7 +2,7 @@ const express = require("express");
 const router = express.Router();
 
 router.post("/se7enMm", async (req, res, next) => {
-  const handle = new require("../apiServer/chromeServer");
+  const handle = new require("../chromeServer");
   let params = req.body;
   let url = await new handle().getSe7enData(params);
 

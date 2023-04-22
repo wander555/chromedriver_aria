@@ -4,7 +4,7 @@ const Aria2 = require("aria2c");
 
 const aria2 = new Aria2({
   token: "junjinking",
-  url: "http://www.wander555.ml:6800/jsonrpc",
+  url: "http://http://10.10.10.22:8080/jsonrpc",
 });
 
 class ChromeServer extends Common {
